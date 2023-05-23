@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import FoodList from './chap02_props/FoodList';
+import NickName from './chap03_state/NickName';
 
 function App() {
   return (
-    <h1>리액트 초보입니다~~ ㅋ</h1>
+    <>
+    <NickName />
+    </>
   );
 }
 
