@@ -1,6 +1,5 @@
 import React from 'react'
 import FoodItem from './FoodItem'
-import SayHello from '../Sayhello';
 
 const FoodList = () => {
 
@@ -38,9 +37,6 @@ const FoodList = () => {
 
   return (
     <ul>
-        <SayHello>
-            <a href='https://www.naver.com'>네이버 링크</a>    
-        </SayHello>
         {
             foods.foodList.map(f => <FoodItem foodName={f.fName} price={f.price} foodId={f.id} />)
         }
